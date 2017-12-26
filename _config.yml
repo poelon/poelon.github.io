@@ -24,7 +24,7 @@ baseurl: ""
 url: https://poelon.github.io/
 twitter_username: jekyllrb
 github_username:  poelon
-
+name: Paul NOËL
 # Build settings
 markdown: kramdown
 theme: minima
