@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "pno"
+date:   2017-12-25 16:35:55 +0100
+categories: jekyll update
+---
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
