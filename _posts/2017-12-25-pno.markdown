@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "pno"
+title:  "planètes et signes"
 date:   2017-12-25 16:35:55 +0100
 categories: jekyll update
 ---
+[le monde](http://lemonde.fr/)
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  {{ myimage.path }}
+![Alt text]({{ myimage.path  | absolute_url }})
 {% endfor %}
