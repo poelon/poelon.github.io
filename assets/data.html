@@ -1,0 +1,20 @@
+---
+layout: default
+title: données json
+---
+  {% for groupe in site.data %}
+    <b>{{ groupe[0] }}</b>
+    <ul>
+    {% for personne in groupe[1] %} 
+      <a href="https://fr.wikipedia.org/wiki/{{ personne.clef }}">{{ personne.clef }}</a>
+      {% for element in personne.valeur %}
+        <li>
+        {% cycle 'date de naissance', 'heure', 'lieu', 'utc', 'latitude', 'longitude' %} : {{ element }}
+        </li>
+      {% endfor %}
+      <br>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+
+{% comment %} commentaire {% endcomment %} 
