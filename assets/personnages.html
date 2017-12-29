@@ -1,0 +1,22 @@
+---
+layout: default
+title: Personnages
+---
+
+<ul>
+{% for personnage in site.data.personnages %}
+  <li>
+    <a href="https://fr.wikipedia.org/wiki/{{ personnage.clef }}">
+      {{ personnage.clef }}
+       </a>
+        <ul>
+        {% for element in personnage.valeur %}
+            <li>
+            {{ element }}
+            </li>
+        {% endfor %}
+        </ul>
+   
+  </li>
+{% endfor %}
+</ul>

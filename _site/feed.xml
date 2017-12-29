@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-26T18:15:34+01:00</updated><id>http://localhost:4000/</id><title type="html">retraité et étudiant en astrologie</title><subtitle>Zodiaque affiche le thème astral, natal ou progressé ainsi que le tableau annuel des transits mondiaux ou progressés. Il sauvegarde les coordonnées de naissance sous forme de fichier json.</subtitle><entry><title type="html">planètes et signes</title><link href="http://localhost:4000/notes/2017/12/25/pno" rel="alternate" type="text/html" title="planètes et signes" /><published>2017-12-25T16:35:55+01:00</published><updated>2017-12-25T16:35:55+01:00</updated><id>http://localhost:4000/notes/2017/12/25/pno</id><content type="html" xml:base="http://localhost:4000/notes/2017/12/25/pno">&lt;p&gt;&lt;a href=&quot;http://lemonde.fr/&quot;&gt;le monde&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-28T16:45:13+01:00</updated><id>http://localhost:4000/</id><title type="html">retraité et étudiant en astrologie</title><subtitle>Zodiaque affiche le thème astral, natal ou progressé ainsi que le tableau annuel des transits mondiaux ou progressés. Il sauvegarde les coordonnées de naissance sous forme de fichier json.</subtitle><entry><title type="html">tests markdown</title><link href="http://localhost:4000/notes/2017/12/26/test" rel="alternate" type="text/html" title="tests markdown" /><published>2017-12-26T16:35:55+01:00</published><updated>2017-12-26T16:35:55+01:00</updated><id>http://localhost:4000/notes/2017/12/26/test</id><content type="html" xml:base="http://localhost:4000/notes/2017/12/26/test">&lt;h1 id=&quot;h1-fichier-test&quot;&gt;h1 fichier &lt;em&gt;test&lt;/em&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;item1&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;item2&lt;/li&gt;
+  &lt;li&gt;item3
+    &lt;ul&gt;
+      &lt;li&gt;item4&lt;/li&gt;
+      &lt;li&gt;item5
+    1. item1
+    2. item2
+        &lt;ol&gt;
+          &lt;li&gt;item3&lt;/li&gt;
+          &lt;li&gt;item4
+            &lt;blockquote&gt;
+              &lt;p&gt;bloc de texte
+équivalent à p&lt;/p&gt;
+              &lt;blockquote&gt;
+                &lt;p&gt;2ème bloc de texte
+suite&lt;/p&gt;
+                &lt;blockquote&gt;
+                  &lt;p&gt;3ème bloc
+et continuation&lt;/p&gt;
+
+                  &lt;p&gt;texte normal sans balises&lt;/p&gt;
+                &lt;/blockquote&gt;
+              &lt;/blockquote&gt;
+            &lt;/blockquote&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;horizontal rule ligne suivante&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;*
+texte normal
+suite du texte
+        &lt;blockquote&gt;
+          &lt;p&gt;retour à la ligne
+et continuation&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">h1 fichier test item1 item2 item3 item4 item5 1. item1 2. item2 item3 item4 bloc de texte équivalent à p 2ème bloc de texte suite 3ème bloc et continuation texte normal sans balises horizontal rule ligne suivante * texte normal suite du texte retour à la ligne et continuation</summary></entry><entry><title type="html">planètes et signes</title><link href="http://localhost:4000/notes/2017/12/25/images" rel="alternate" type="text/html" title="planètes et signes" /><published>2017-12-25T16:35:55+01:00</published><updated>2017-12-25T16:35:55+01:00</updated><id>http://localhost:4000/notes/2017/12/25/images</id><content type="html" xml:base="http://localhost:4000/notes/2017/12/25/images">&lt;p&gt;&lt;a href=&quot;http://lemonde.fr/&quot;&gt;le monde&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/planetes/ceres-symbol.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;
 
